@@ -1,0 +1,87 @@
+body {
+    font-size: 15pt;
+}
+
+
+body {
+  background-color: blue;
+  text-align: center;
+}
+
+#player {
+  background-color: blue;
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+#playlist {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#playlist li {
+  cursor: pointer;
+  padding: 5px;
+  background-color: greenyellow;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#playlist li:hover {
+  background-color: greenyellow;
+}
+
+#playlist li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#playlist li a:hover {
+  text-decoration: underline;
+}
+
+
+
+.text-container {
+  text-align: center;
+}
+
+.green-text {
+  color: greenyellow;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+
+.credit-bar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.credit-text {
+  font-size: 14px;
+  color: #888888;
+  margin: 0;
+}
